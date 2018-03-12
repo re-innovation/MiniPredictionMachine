@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:/Google Drive/Work - Chunky Makes/Active Ingredient/Mini Prediction Machine/Mini Prediction Sensor Unit/MiniPredictionMachine_SensorPCB/MiniPredictionMachine_SensorPCB.sch</source>
+    <date>23/06/2017 09:54:56</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Rediction Machine Mini - SENSOR</title>
+        <company>Renewable Energy Innovation</company>
+        <rev>0</rev>
+        <date>2017-06-14</date>
+        <source>MiniPredictionMachine_SensorPCB.sch</source>
+        <comment number="1" value="By: Matt Little"/>
+        <comment number="2" value="For: Rachel Jacobs"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Solar Charging/" tstamps="/59411241/">
+      <title_block>
+        <title>Rediction Machine Mini - SENSOR</title>
+        <company>Renewable Energy Innovation</company>
+        <rev>0</rev>
+        <date>2017-06-14</date>
+        <source>ChargeCircuit.sch</source>
+        <comment number="1" value="By: Matt Little"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Arduino Nano or IC/" tstamps="/546244C1/">
+      <title_block>
+        <title>Rediction Machine Mini - SENSOR</title>
+        <company>Renewable Energy Innovation</company>
+        <rev>0</rev>
+        <date>2017-06-14</date>
+        <source>ArduinoNanoIC.sch</source>
+        <comment number="1" value="By: Matt Little"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>SOLAR</value>
+      <footprint>REInnovationFootprint:SIL_2_screw_+_JST_2mm</footprint>
+      <libsource lib="MiniPredictionMachine_SensorPCB-cache" part="CONN_2-RESCUE-WindLoggerv3_PCB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5463DEBC</tstamp>
+    </comp>
+    <comp ref="PCB1">
+      <value>CONN_1</value>
+      <footprint>REInnovationFootprint:PCB_85x120_4hole_EdgeCut</footprint>
+      <libsource lib="MiniPredictionMachine_SensorPCB-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>549D3CCE</tstamp>
+    </comp>
+    <comp ref="LOGO1">
+      <value>CONN_1</value>
+      <footprint>CuriousElectric3:CEC_Globe_10mm_FCU</footprint>
+      <libsource lib="MiniPredictionMachine_SensorPCB-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>549D429A</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>I2C_1</value>
+      <footprint>matts_components:SIL-4_Grove_SIL</footprint>
+      <fields/>
+      <libsource lib="MiniPredictionMachine_SensorPCB-cache" part="CONN_4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A1E724</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>I2C_2</value>
+      <footprint>matts_components:SIL-4_Grove_SIL</footprint>
+      <fields/>
+      <libsource lib="MiniPredictionMachine_SensorPCB-cache" part="CONN_4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A23326</tstamp>
+    </comp>
+    <comp ref="P12">
+      <value>S_SERIAL</value>
+      <footprint>matts_components:SIL-4_Grove_SIL</footprint>
+      <fields/>
+      <libsource lib="MiniPredictionMachine_SensorPCB-cache" part="CONN_4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B23284</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="MiniPredictionMachine_SensorPCB-cache" part="R-RESCUE-RELogger_PCB_v1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B55194</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="MiniPredictionMachine_SensorPCB-cache" part="R-RESCUE-RELogger_PCB_v1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B5519A</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>ANEMOMETER</value>
+      <footprint>REInnovationFootprint:SIL-2_screw_terminal</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B661D2</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="MiniPredictionMachine_SensorPCB-cache" part="R-RESCUE-RELogger_PCB_v1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BB1826</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>VANE</value>
+      <footprint>REInnovationFootprint:SIL-2_screw_terminal</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BB1A3D</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>INPUT B</value>
+      <footprint>REInnovationFootprint:SW_PUSH_SMALL_lg_pad</footprint>
+      <libsource lib="device" part="SW_PUSH_SMALL_H"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F84634</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>INPUT A</value>
+      <footprint>REInnovationFootprint:SW_PUSH_SMALL_lg_pad</footprint>
+      <libsource lib="device" part="SW_PUSH_SMALL_H"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F84E2C</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>REInnovationFootprint:TH_WS2811_LED_8mm</footprint>
+      <libsource lib="matts_components" part="WS2811_EpiStar_8mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F0A89B</tstamp>
+    </comp>
+    <comp ref="EN1">
+      <value>CONN_1</value>
+      <datasheet>http://www.hellermanntyton.co.uk/binaries/content/assets/local-pdf-files/uk/enclosure-solutions/new-enclosures/junction_boxes.pdf</datasheet>
+      <fields>
+        <field name="Description">Enclosure for circuit. 162x116x76mm</field>
+        <field name="Supplier 1">CPC</field>
+        <field name="Supplier 1 Part No">EN83296</field>
+        <field name="Supplier 1 Cost">4.26</field>
+      </fields>
+      <libsource lib="MiniPredictionMachine_SensorPCB-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F13315</tstamp>
+    </comp>
+    <comp ref="LOGO2">
+      <value>CONN_1</value>
+      <footprint>CuriousElectric3:TCEC_Words_13mm</footprint>
+      <libsource lib="MiniPredictionMachine_SensorPCB-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F8AC2F</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>RAIN</value>
+      <footprint>REInnovationFootprint:SIL-2_screw_terminal</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5940B7D4</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>WATER</value>
+      <footprint>REInnovationFootprint:SIL-3_screw_terminal</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5940BD2C</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>TEMPERATURE</value>
+      <footprint>REInnovationFootprint:SIL-3_screw_terminal</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5940BF25</tstamp>
+    </comp>
+    <comp ref="P11">
+      <value>SERIAL_HC12</value>
+      <footprint>matts_components:SIL-5_large_pads_marker</footprint>
+      <libsource lib="conn" part="CONN_01X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594165B3</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>LiPo 18650</value>
+      <footprint>REInnovationFootprint:TH_LiIon_Holder</footprint>
+      <libsource lib="device" part="Battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5941C233</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D_Schottky</value>
+      <footprint>REInnovationFootprint:TH_Diode_1</footprint>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5942CF06</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>VREF?</value>
+      <footprint>REInnovationFootprint:SIL-3_solder_connect</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5942F9F1</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943318B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59433319</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4k7</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594359B3</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>DATA</value>
+      <footprint>REInnovationFootprint:TH_LED-5MM_larg_pad</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59445F10</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>330</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594460A1</tstamp>
+    </comp>
+    <comp ref="P16">
+      <value>GPS MODULE</value>
+      <footprint>matts_components:SIL-5_large_pads_marker</footprint>
+      <libsource lib="conn" part="CONN_01X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594510E7</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5945394F</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59453955</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BD135</value>
+      <footprint>REInnovationFootprint:TO220_BD135</footprint>
+      <libsource lib="device" part="Q_NPN_ECB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59453968</tstamp>
+    </comp>
+    <comp ref="P15">
+      <value>AIO_67</value>
+      <footprint>matts_components:SIL-4_Grove_SIL</footprint>
+      <fields/>
+      <libsource lib="MiniPredictionMachine_SensorPCB-cache" part="CONN_4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5945B818</tstamp>
+    </comp>
+    <comp ref="SERIAL1">
+      <value>CONN_1</value>
+      <datasheet>https://www.elecrow.com/433mhz-serial-rf-module-hc12-1000m-p-874.html</datasheet>
+      <fields>
+        <field name="Supplier 1">Elecrow</field>
+        <field name="Supplier 1 Part No">WHC0012RF</field>
+        <field name="Supplier 1 Cost">5.23</field>
+      </fields>
+      <libsource lib="MiniPredictionMachine_SensorPCB-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59475BDB</tstamp>
+    </comp>
+    <comp ref="P17">
+      <value>USB</value>
+      <footprint>REInnovationFootprint:SIL-2_screw_terminal</footprint>
+      <libsource lib="MiniPredictionMachine_SensorPCB-cache" part="CONN_2-RESCUE-WindLoggerv3_PCB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59478F9F</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>BQ24210</value>
+      <footprint>REInnovationFootprint:SM_WSON-10-2x3</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/bq24210.pdf</datasheet>
+      <fields>
+        <field name="Description">LiIon Charger 800mA PV Input</field>
+        <field name="Manufacturer">TI</field>
+        <field name="Manufacturer Part No">BQ24210DQCT</field>
+        <field name="Supplier 1">RS</field>
+        <field name="Supplier 1 Part No">742-2836</field>
+        <field name="Supplier 1 Cost">2.34</field>
+      </fields>
+      <libsource lib="matts_components" part="BQ24210-RESCUE-SolarCharger2017"/>
+      <sheetpath names="/Solar Charging/" tstamps="/59411241/"/>
+      <tstamp>58B3146F</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>2.2k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Solar Charging/" tstamps="/59411241/"/>
+      <tstamp>58B318C0</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>2.2k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Solar Charging/" tstamps="/59411241/"/>
+      <tstamp>58B31907</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>REInnovationFootprint:C_1V7_TH</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Solar Charging/" tstamps="/59411241/"/>
+      <tstamp>58B319C0</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>REInnovationFootprint:C_1V7_TH</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/Solar Charging/" tstamps="/59411241/"/>
+      <tstamp>58B31A6D</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Solar Charging/" tstamps="/59411241/"/>
+      <tstamp>58B31BC6</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Solar Charging/" tstamps="/59411241/"/>
+      <tstamp>58B6EAFF</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>CHG</value>
+      <footprint>REInnovationFootprint:TH_LED-5MM_larg_pad</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Solar Charging/" tstamps="/59411241/"/>
+      <tstamp>594133A3</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>PG</value>
+      <footprint>REInnovationFootprint:TH_LED-5MM_larg_pad</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Solar Charging/" tstamps="/59411241/"/>
+      <tstamp>59413418</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>REInnovationFootprint:C_1V7_TH</footprint>
+      <libsource lib="matts_components" part="CP1-RESCUE-RELogger_PCB_v1"/>
+      <sheetpath names="/Solar Charging/" tstamps="/59411241/"/>
+      <tstamp>5941814D</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>REInnovationFootprint:C_1V7_TH</footprint>
+      <libsource lib="matts_components" part="CP1-RESCUE-RELogger_PCB_v1"/>
+      <sheetpath names="/Solar Charging/" tstamps="/59411241/"/>
+      <tstamp>59418154</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP1826S</value>
+      <footprint>REInnovationFootprint:TO220_MCP1826S</footprint>
+      <libsource lib="matts_components" part="MCP1826S"/>
+      <sheetpath names="/Solar Charging/" tstamps="/59411241/"/>
+      <tstamp>59418165</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>ON/OFF</value>
+      <footprint>REInnovationFootprint:SW_SPDT_R_Angle_ALIEX</footprint>
+      <libsource lib="device" part="SPST"/>
+      <sheetpath names="/Solar Charging/" tstamps="/59411241/"/>
+      <tstamp>5941816F</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>500mA</value>
+      <footprint>REInnovationFootprint:TH_MC36188_FUSE</footprint>
+      <fields>
+        <field name="Description">Resettable fuse. 0.5A</field>
+        <field name="Supplier 1">RS</field>
+        <field name="Supplier 1 Part No">517-6635</field>
+        <field name="Supplier 1 Cost">0.27</field>
+      </fields>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/Solar Charging/" tstamps="/59411241/"/>
+      <tstamp>59418464</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D_Schottky</value>
+      <footprint>REInnovationFootprint:TH_Diode_1</footprint>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/Solar Charging/" tstamps="/59411241/"/>
+      <tstamp>59418B59</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>matts_components:C1_wide_lg_pad</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Arduino Nano or IC/" tstamps="/546244C1/"/>
+      <tstamp>54624C6A</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>matts_components:C1_wide_lg_pad</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Arduino Nano or IC/" tstamps="/546244C1/"/>
+      <tstamp>54624CEC</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100uF</value>
+      <footprint>REInnovationFootprint:C_1V7_TH</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/Arduino Nano or IC/" tstamps="/546244C1/"/>
+      <tstamp>54624CF2</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>RESET</value>
+      <footprint>matts_components:SW_PUSH_single_pins</footprint>
+      <libsource lib="device" part="SPST"/>
+      <sheetpath names="/Arduino Nano or IC/" tstamps="/546244C1/"/>
+      <tstamp>54624CF8</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>22pF</value>
+      <footprint>matts_components:C1_lg_pad</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Arduino Nano or IC/" tstamps="/546244C1/"/>
+      <tstamp>54624CFE</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>22pF</value>
+      <footprint>matts_components:C1_lg_pad</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Arduino Nano or IC/" tstamps="/546244C1/"/>
+      <tstamp>54624D04</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Arduino Nano or IC/" tstamps="/546244C1/"/>
+      <tstamp>54624D10</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>16MHz</value>
+      <footprint>matts_components:Xtal_small_matt</footprint>
+      <libsource lib="matts_components" part="CRYSTAL_Matt"/>
+      <sheetpath names="/Arduino Nano or IC/" tstamps="/546244C1/"/>
+      <tstamp>5467B660</tstamp>
+    </comp>
+    <comp ref="P14">
+      <value>FTDI</value>
+      <footprint>matts_components:SIL-6_large_pads_marker</footprint>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/Arduino Nano or IC/" tstamps="/546244C1/"/>
+      <tstamp>5941C959</tstamp>
+    </comp>
+    <comp ref="P13">
+      <value>ISP</value>
+      <footprint>matts_components:ISP_3x2</footprint>
+      <libsource lib="conn" part="CONN_02X03"/>
+      <sheetpath names="/Arduino Nano or IC/" tstamps="/546244C1/"/>
+      <tstamp>5941CDCA</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>ATMEGA328P-P</value>
+      <footprint>REInnovationFootprint:DIP-28__300_ELL</footprint>
+      <libsource lib="atmel" part="ATMEGA328P-P"/>
+      <sheetpath names="/Arduino Nano or IC/" tstamps="/546244C1/"/>
+      <tstamp>5941DC54</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>NANO</value>
+      <footprint>REInnovationFootprint:NANO_DIP_30_600</footprint>
+      <libsource lib="matts_components" part="Arduino_Nano_Header"/>
+      <sheetpath names="/Arduino Nano or IC/" tstamps="/546244C1/"/>
+      <tstamp>5941F158</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="atmel" part="ATMEGA328P-P">
+      <footprints>
+        <fp>28DIP-ELL600</fp>
+        <fp>28dip600</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ATMEGA328P-P</field>
+        <field name="Footprint">DIL28</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(PCINT14/RESET)PC6" type="BiDi"/>
+        <pin num="2" name="(PCINT16/RXD)PD0" type="BiDi"/>
+        <pin num="3" name="(PCINT17/TXD)PD1" type="BiDi"/>
+        <pin num="4" name="(PCINT18/INT0)PD2" type="BiDi"/>
+        <pin num="5" name="(PCINT19/OC2B/INT1)PD3" type="BiDi"/>
+        <pin num="6" name="(PCINT20/XCK/T0)PD4" type="BiDi"/>
+        <pin num="7" name="VCC" type="BiDi"/>
+        <pin num="8" name="GND" type="BiDi"/>
+        <pin num="9" name="(PCINT6/XTAL1/TOSC1)PB6" type="BiDi"/>
+        <pin num="10" name="(PCINT7/XTAL2/TOSC2)PB7" type="BiDi"/>
+        <pin num="11" name="(PCINT21/OC0B/T1)PD5" type="BiDi"/>
+        <pin num="12" name="(PCINT22/OC0A/AIN0)PD6" type="BiDi"/>
+        <pin num="13" name="(PCINT23/AIN1)PD7" type="BiDi"/>
+        <pin num="14" name="(PCINT0/CLKO/ICP1)PB0" type="BiDi"/>
+        <pin num="15" name="(PCINT1/OC1A)PB1" type="BiDi"/>
+        <pin num="16" name="(PCINT2/OC1B/SS)PB2" type="BiDi"/>
+        <pin num="17" name="(PCINT3/OC2A/MOSI)PB3" type="BiDi"/>
+        <pin num="18" name="(PCINT4/MISO)PB4" type="BiDi"/>
+        <pin num="19" name="(PCINT5/SCK)PB5" type="BiDi"/>
+        <pin num="20" name="AVCC" type="BiDi"/>
+        <pin num="21" name="AREF" type="BiDi"/>
+        <pin num="22" name="GND" type="BiDi"/>
+        <pin num="23" name="(PCINT8/ADC0)PC0" type="BiDi"/>
+        <pin num="24" name="(PCINT9/ADC1)PC1" type="BiDi"/>
+        <pin num="25" name="(PCINT10/ADC2)PC2" type="BiDi"/>
+        <pin num="26" name="(PCINT11/ADC3)PC3" type="BiDi"/>
+        <pin num="27" name="(PCINT12/SDA/ADC4)PC4" type="BiDi"/>
+        <pin num="28" name="(PCINT14/SCL/ADC5)PC5" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="matts_components" part="Arduino_Nano_Header">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Arduino_Nano_Header</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="passive"/>
+        <pin num="2" name="D0/RX" type="passive"/>
+        <pin num="3" name="RESET" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="D2/INT0" type="passive"/>
+        <pin num="6" name="D3/INT1" type="passive"/>
+        <pin num="7" name="D4/T0" type="passive"/>
+        <pin num="8" name="D5/T1" type="passive"/>
+        <pin num="9" name="D6/AIN0" type="passive"/>
+        <pin num="10" name="D7/AIN1" type="passive"/>
+        <pin num="11" name="D8/ICP" type="passive"/>
+        <pin num="12" name="D9/0C1" type="passive"/>
+        <pin num="13" name="D10/SS" type="passive"/>
+        <pin num="14" name="D11/MOSI" type="passive"/>
+        <pin num="15" name="D12/MISO" type="passive"/>
+        <pin num="16" name="SCK/D13" type="passive"/>
+        <pin num="17" name="3V3" type="passive"/>
+        <pin num="18" name="AREF" type="passive"/>
+        <pin num="19" name="A0" type="passive"/>
+        <pin num="20" name="A1" type="passive"/>
+        <pin num="21" name="A2" type="passive"/>
+        <pin num="22" name="A3" type="passive"/>
+        <pin num="23" name="A4" type="passive"/>
+        <pin num="24" name="A5" type="passive"/>
+        <pin num="25" name="A6" type="passive"/>
+        <pin num="26" name="A7" type="passive"/>
+        <pin num="27" name="5V" type="passive"/>
+        <pin num="28" name="RESET" type="passive"/>
+        <pin num="29" name="GND" type="passive"/>
+        <pin num="30" name="VIN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="matts_components" part="BQ24210-RESCUE-SolarCharger2017">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ24210-RESCUE-SolarCharger2017</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vbus" type="power_out"/>
+        <pin num="2" name="Iset" type="input"/>
+        <pin num="3" name="Vss" type="input"/>
+        <pin num="4" name="VTSB" type="input"/>
+        <pin num="5" name="TS" type="input"/>
+        <pin num="6" name="~PG" type="input"/>
+        <pin num="7" name="~EN" type="input"/>
+        <pin num="8" name="~CHG" type="input"/>
+        <pin num="9" name="VDPM" type="input"/>
+        <pin num="10" name="BAT" type="input"/>
+        <pin num="PAD" name="SHIELD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Battery">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X05">
+      <description>Connector, single row, 01x05</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X05</fp>
+        <fp>Pin_Header_Angled_1X05</fp>
+        <fp>Socket_Strip_Straight_1X05</fp>
+        <fp>Socket_Strip_Angled_1X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <description>Connector, single row, 01x06</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X03">
+      <description>Connector, double row, 02x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X03</fp>
+        <fp>Pin_Header_Angled_2X03</fp>
+        <fp>Socket_Strip_Straight_2X03</fp>
+        <fp>Socket_Strip_Angled_2X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiniPredictionMachine_SensorPCB-cache" part="CONN_1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiniPredictionMachine_SensorPCB-cache" part="CONN_2-RESCUE-WindLoggerv3_PCB">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_2-RESCUE-WindLoggerv3_PCB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiniPredictionMachine_SensorPCB-cache" part="CONN_4">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>C_Axial*</fp>
+        <fp>C_Radial*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>SMD*_Pol</fp>
+        <fp>C_Axial*</fp>
+        <fp>C_Radial*</fp>
+        <fp>c_elec*</fp>
+        <fp>C*elec</fp>
+        <fp>TantalC*</fp>
+        <fp>CP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="matts_components" part="CP1-RESCUE-RELogger_PCB_v1">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1-RESCUE-RELogger_PCB_v1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="matts_components" part="CRYSTAL_Matt">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL_Matt</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FUSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="matts_components" part="MCP1826S">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1826S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NPN_ECB">
+      <description>Transistor NPN (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_ECB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiniPredictionMachine_SensorPCB-cache" part="R-RESCUE-RELogger_PCB_v1">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-RELogger_PCB_v1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SPST">
+      <description>Interrupteur simple</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH_SMALL_H">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH_SMALL_H</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="matts_components" part="WS2811_EpiStar_8mm">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2811_EpiStar_8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DATA_OUT" type="output"/>
+        <pin num="2" name="+Vin" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="DATA_IN" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="atmel">
+      <uri>E:\Google Drive\KiCAD\kicad_reinnovation\KiCad My Libraries\atmel.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="matts_components">
+      <uri>E:\Google Drive\KiCAD\kicad_reinnovation\KiCad My Libraries\matts_components.lib</uri>
+    </library>
+    <library logical="MiniPredictionMachine_SensorPCB-cache">
+      <uri>E:\Google Drive\Work - Chunky Makes\Active Ingredient\Mini Prediction Machine\Mini Prediction Sensor Unit\MiniPredictionMachine_SensorPCB\MiniPredictionMachine_SensorPCB-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/WIND_SPEED">
+      <node ref="R2" pin="2"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="2" name="/MOISTURE">
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="3" name="/Vss">
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="4" name="/Vss">
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="5" name="/RAIN_FALL">
+      <node ref="R1" pin="2"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="6" name="/MOISTURE">
+      <node ref="IC1" pin="11"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="7" name="/TEMPERATURE">
+      <node ref="IC1" pin="6"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="8" name="/RAIN_FALL">
+      <node ref="J1" pin="6"/>
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="9" name="/WIND_SPEED">
+      <node ref="J1" pin="5"/>
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="10" name="/VANE">
+      <node ref="J1" pin="20"/>
+      <node ref="IC1" pin="24"/>
+    </net>
+    <net code="11" name="/Vss">
+      <node ref="P4" pin="3"/>
+    </net>
+    <net code="12" name="/TEMPERATURE">
+      <node ref="R3" pin="2"/>
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="13" name="/Vss">
+      <node ref="R3" pin="1"/>
+      <node ref="P5" pin="3"/>
+    </net>
+    <net code="14" name="/VUSB">
+      <node ref="P17" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="J1" pin="27"/>
+      <node ref="P14" pin="4"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="15" name="/Vss">
+      <node ref="IC1" pin="7"/>
+      <node ref="IC1" pin="20"/>
+      <node ref="C6" pin="1"/>
+      <node ref="P13" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="16" name="/Arduino Nano or IC/VIN_NANO">
+      <node ref="J1" pin="30"/>
+    </net>
+    <net code="17" name="/Arduino Nano or IC/3V3_NANO">
+      <node ref="J1" pin="17"/>
+      <node ref="P7" pin="3"/>
+    </net>
+    <net code="18" name="/A7">
+      <node ref="J1" pin="26"/>
+    </net>
+    <net code="19" name="/A6">
+      <node ref="J1" pin="25"/>
+    </net>
+    <net code="20" name="/Rx_SOFT">
+      <node ref="IC1" pin="15"/>
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="21" name="/Tx_SOFT">
+      <node ref="J1" pin="11"/>
+      <node ref="IC1" pin="14"/>
+    </net>
+    <net code="22" name="/Solar Charging/3V3">
+      <node ref="C4" pin="1"/>
+      <node ref="P7" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="23" name="/LED_WS2811">
+      <node ref="J1" pin="9"/>
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="24" name="/Solar Charging/LiPoOUT+">
+      <node ref="F1" pin="2"/>
+      <node ref="BT1" pin="1"/>
+    </net>
+    <net code="25" name="/Vss">
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="26" name="/A6">
+      <node ref="P15" pin="2"/>
+    </net>
+    <net code="27" name="Net-(SERIAL1-Pad1)">
+      <node ref="SERIAL1" pin="1"/>
+    </net>
+    <net code="28" name="/A7">
+      <node ref="P15" pin="1"/>
+    </net>
+    <net code="29" name="/Rx_SOFT2">
+      <node ref="IC1" pin="26"/>
+      <node ref="J1" pin="22"/>
+    </net>
+    <net code="30" name="/Tx_SOFT2">
+      <node ref="IC1" pin="25"/>
+      <node ref="J1" pin="21"/>
+    </net>
+    <net code="31" name="/Arduino Nano or IC/D13">
+      <node ref="P13" pin="3"/>
+      <node ref="J1" pin="16"/>
+      <node ref="IC1" pin="19"/>
+    </net>
+    <net code="32" name="+3.3V">
+      <node ref="J1" pin="18"/>
+      <node ref="R4" pin="1"/>
+      <node ref="P7" pin="2"/>
+      <node ref="P15" pin="3"/>
+      <node ref="IC1" pin="21"/>
+    </net>
+    <net code="33" name="/Vss">
+      <node ref="P16" pin="1"/>
+    </net>
+    <net code="34" name="Net-(P16-Pad2)">
+      <node ref="P16" pin="2"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="35" name="/LED_WS2811">
+      <node ref="R5" pin="2"/>
+      <node ref="D2" pin="4"/>
+    </net>
+    <net code="36" name="Net-(P16-Pad5)">
+      <node ref="P16" pin="5"/>
+    </net>
+    <net code="37" name="/Tx_SOFT2">
+      <node ref="P16" pin="4"/>
+    </net>
+    <net code="38" name="/Rx_SOFT2">
+      <node ref="P16" pin="3"/>
+    </net>
+    <net code="39" name="/SW_A">
+      <node ref="J1" pin="14"/>
+      <node ref="P13" pin="4"/>
+      <node ref="IC1" pin="17"/>
+    </net>
+    <net code="40" name="/SW_B">
+      <node ref="IC1" pin="18"/>
+      <node ref="J1" pin="15"/>
+      <node ref="P13" pin="1"/>
+    </net>
+    <net code="41" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="42" name="/GPS_CS">
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="43" name="/WIRELESS_CS">
+      <node ref="J1" pin="10"/>
+      <node ref="IC1" pin="13"/>
+    </net>
+    <net code="44" name="/SCLK">
+      <node ref="IC1" pin="28"/>
+      <node ref="J1" pin="24"/>
+    </net>
+    <net code="45" name="/SDA">
+      <node ref="IC1" pin="27"/>
+      <node ref="J1" pin="23"/>
+    </net>
+    <net code="46" name="/GPS_CS">
+      <node ref="J1" pin="13"/>
+      <node ref="IC1" pin="16"/>
+    </net>
+    <net code="47" name="Net-(Q2-Pad3)">
+      <node ref="R15" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="48" name="/VBATT">
+      <node ref="IC1" pin="23"/>
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="49" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="50" name="/Vss">
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="51" name="/Rx">
+      <node ref="IC1" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="P14" pin="3"/>
+    </net>
+    <net code="52" name="/VANE">
+      <node ref="P6" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="53" name="/Vss">
+      <node ref="P8" pin="3"/>
+      <node ref="P9" pin="3"/>
+    </net>
+    <net code="54" name="/SCLK">
+      <node ref="P9" pin="1"/>
+      <node ref="P8" pin="1"/>
+    </net>
+    <net code="55" name="/SDA">
+      <node ref="P9" pin="2"/>
+      <node ref="P8" pin="2"/>
+    </net>
+    <net code="57" name="Net-(LOGO1-Pad1)">
+      <node ref="LOGO1" pin="1"/>
+    </net>
+    <net code="58" name="Net-(PCB1-Pad1)">
+      <node ref="PCB1" pin="1"/>
+    </net>
+    <net code="59" name="/Tx">
+      <node ref="J1" pin="1"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="P14" pin="2"/>
+    </net>
+    <net code="60" name="/Vss">
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="61" name="/VBATT">
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="62" name="/Vss">
+      <node ref="P12" pin="3"/>
+      <node ref="P11" pin="5"/>
+    </net>
+    <net code="63" name="/Vss">
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="64" name="/Solar Charging/PVIN+">
+      <node ref="U1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="65" name="/SW_B">
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="66" name="/SW_A">
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="67" name="/WIRELESS_CS">
+      <node ref="P11" pin="1"/>
+    </net>
+    <net code="68" name="/Rx_SOFT">
+      <node ref="P11" pin="2"/>
+      <node ref="P12" pin="1"/>
+    </net>
+    <net code="69" name="/Tx_SOFT">
+      <node ref="P12" pin="2"/>
+      <node ref="P11" pin="3"/>
+    </net>
+    <net code="70" name="Net-(EN1-Pad1)">
+      <node ref="EN1" pin="1"/>
+    </net>
+    <net code="71" name="Net-(LOGO2-Pad1)">
+      <node ref="LOGO2" pin="1"/>
+    </net>
+    <net code="72" name="Net-(C7-Pad2)">
+      <node ref="P14" pin="1"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="73" name="RESET">
+      <node ref="J1" pin="3"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="J1" pin="28"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="P13" pin="5"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="74" name="Net-(C9-Pad1)">
+      <node ref="X1" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="75" name="Net-(C8-Pad1)">
+      <node ref="X1" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="IC1" pin="9"/>
+    </net>
+    <net code="76" name="GND">
+      <node ref="Q2" pin="1"/>
+      <node ref="P15" pin="4"/>
+      <node ref="P1" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="PAD"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="P17" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="D2" pin="3"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="P11" pin="4"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="IC1" pin="22"/>
+      <node ref="P14" pin="5"/>
+      <node ref="P14" pin="6"/>
+      <node ref="P13" pin="6"/>
+      <node ref="P3" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="P9" pin="4"/>
+      <node ref="P8" pin="4"/>
+      <node ref="J1" pin="29"/>
+      <node ref="P12" pin="4"/>
+      <node ref="R16" pin="1"/>
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="77" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="78" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="79" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="80" name="Net-(R10-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="81" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="82" name="Net-(D8-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="7"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="83" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="84" name="Net-(R11-Pad2)">
+      <node ref="U1" pin="4"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="85" name="Net-(C2-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+  </nets>
+</export>
